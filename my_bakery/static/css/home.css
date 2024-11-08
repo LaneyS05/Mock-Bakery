@@ -1,0 +1,96 @@
+/* Ensure the nav bar holds relative positioning to prevent the dropdown from affecting the button */
+nav {
+    background-color: #e0d5b9;
+    padding: 10px;
+    position: relative; /* Added relative positioning */
+}
+
+h1 {
+    color: #8B4513;
+    font-family: Times, Times New Roman, serif;
+}
+
+img {
+    width: 100%;
+    height: 550px;
+}
+
+.menu-button{
+    background-color: #e0d5b9;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    border: none;
+}
+
+.burger-menu {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: #e0d5b9;
+}
+
+.bar {
+    width: 60px;        /* Increased width for longer bars */
+    height: 10px;        /* Thinner height for the bars */
+    background-color: #8B4513;
+    margin-bottom: 6px; /* Space between bars */
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    border-radius: 5px;  /* Optional for rounded corners */
+}
+
+
+/* Hover effect for burger bars */
+.burger-menu:hover .bar:nth-child(1) {
+    animation: jumpTop 0.3s ease forwards;
+}
+
+.burger-menu:hover .bar:nth-child(2) {
+    animation: jumpMiddle 0.3s ease forwards;
+    animation-delay: 0.1s; /* Delay the second bar's animation */
+}
+
+.burger-menu:hover .bar:nth-child(3) {
+    animation: jumpBottom 0.3s ease forwards;
+    animation-delay: 0.2s; /* Delay the third bar's animation */
+}
+
+/* Jump animation for the first bar */
+@keyframes jumpTop {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Move up */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Jump animation for the middle bar */
+@keyframes jumpMiddle {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Move up */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Jump animation for the third bar */
+@keyframes jumpBottom {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Move up */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
