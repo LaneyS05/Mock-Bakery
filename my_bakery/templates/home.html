@@ -27,9 +27,13 @@
         <a href="../templates/contact.html">Contact</a>
       </div>
     </nav>
-    <img src="../static/assets/bakery.jpg" alt="bakery" />
-    <p>We bake with love and the finest ingredients.</p>
-    <a href="{{ url_for('menu') }}">View Our Menu</a>
+
+    <!-- Arrows to change images -->
+    <button class="arrow left" onclick="changeImage('prev')">←</button>
+    <img id="bakeryImage" src="../static/assets/bakery.jpg" alt="bakery" />
+    <button class="arrow right" onclick="changeImage('next')">→</button>
+
+    <h3>We bake with love and the finest ingredients.</h3>
 
     <!-- Link to external JavaScript file -->
     <script src="{{ url_for('static', filename='js/home.js') }}"></script>
