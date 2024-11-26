@@ -1,0 +1,51 @@
+[
+    {   
+        "food_id": 0,
+        "name": "Chocolate Cupcake",
+        "photo": "https://pixabay.com/photos/chocolate-cupcake-cupcake-dessert-6919920/",
+        "bio": "sweet treat made with rich cocoa. It has a soft, moist texture and a deep chocolate flavor. Topped with creamy frosting, it’s perfect for satisfying a sweet tooth.",
+        "alt": "from Pixabay by guvo59 https://pixabay.com/users/guvo59-9285194/"
+    },{   
+        "food_id": 1,
+        "name": "Macarons",
+        "photo": "https://pixabay.com/photos/macarons-dessert-bakery-french-732021/",
+        "bio": "Delicate and colorful, macarons are sweet confections with a crisp shell, chewy center, and luscious fillings. Perfect for any occasion.",
+        "alt":"from Pixavay by TesaPhotography https://pixabay.com/users/tesaphotography-947707/"
+    },{   
+        "food_id": 2,
+        "name": "Thin Cholate Chip Cookies",
+        "photo": "https://pixabay.com/photos/chocolate-chip-cookies-food-sweets-2562000/",
+        "bio": "Crispy and golden, thin chocolate chip cookies are packed with rich chocolate flavor in every bite. A timeless treat for all ages.",
+        "alt":"from Pixabay by StockSnap https://pixabay.com/users/stocksnap-894430/"
+    }, {
+        "food_id": 3,
+        "name": "Walnut Brownies",
+        "photo": "https://pixabay.com/photos/brownies-chocolate-cake-dessert-10537546/",
+        "bio": "Rich and fudgy, walnut brownies combine decadent chocolate with the perfect crunch of walnuts. A treat that’s hard to resist.",
+        "alt": "from Pixabay by StockSnap https://pixabay.com/users/stocksnap-894430/"
+    },{
+        "food_id": 4,
+        "name": "Cherry Cheesecake",
+        "photo": "https://pixabay.com/photos/dessert-food-chocolate-brownie-2603520/",
+        "bio": "Creamy and indulgent, cherry cheesecake is topped with sweet cherries for a perfect blend of tart and rich flavors. A classic dessert favorite.",
+        "alt": "from Pixabay by FineArtFortress https://pixabay.com/users/fineartfortress-34583680/"
+    },{
+        "food_id": 5,
+        "name": "Banana Bread",
+        "photo": "https://www.pexels.com/photo/close-up-photo-of-sliced-loaf-bread-2067626/",
+        "bio": "Moist and flavorful, banana bread is a comforting classic made with ripe bananas and a hint of sweetness. Perfect for any time of day.",
+        "alt": "from Pexels by Marta Dzedyshko https://www.pexels.com/@marta-dzedyshko-1042863/"
+    },{
+        "food_id": 6,
+        "name": "Almond Brownies",
+        "photo": "https://www.pexels.com/photo/freshly-baked-chocolate-bread-with-nuts-9810301/",
+        "bio": "Decadent and nutty, almond brownies combine rich chocolate with the crunch of almonds for a perfectly satisfying treat.",
+        "alt": "from pexels by Dee Dave https://www.pexels.com/@dee-dave-60341237/."
+    },{
+        "food_id": 7,
+        "name": "Molten Cake",
+        "photo": "https://www.pexels.com/photo/desserts-with-ice-creams-4662043/",
+        "bio":"Decadently rich, molten cake features a warm, gooey chocolate center that melts with every bite. A dessert lover's dream come true.",
+        "alt": "from pexels by Marina Utrabo https://www.pexels.com/@marinautrabo/."
+    }
+]
