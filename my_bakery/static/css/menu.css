@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #f9f6ed;
+    color: #8B4513;
+}
+
+h1 {
+    text-align: center;
+    color: #8B4513;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #8B4513;
+    border-radius: 10px;
+    background-color: #e0d5b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.menu-item h2 {
+    margin: 0;
+    color: #8B4513;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #4B2E0E;
+}
+
+.menu-item strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #8B4513;
+}
+
+/* Optional hover effect for menu items */
+.menu-item:hover {
+    background-color: #d2c2a3;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}

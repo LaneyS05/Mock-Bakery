@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/menu.css') }}"
+    />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu | Mock Bakery</title>
   </head>
   <body>
     <h1>Our Menu</h1>
-    <ul>
-      <li><strong>Croissants:</strong> $3.00 - Buttery and flaky.</li>
-      <li>
-        <strong>Cinnamon Rolls:</strong> $4.50 - Warm with a hint of spice.
-      </li>
-      <li>
-        <strong>Cupcakes:</strong> $2.00 each - Available in various flavors.
-      </li>
-    </ul>
+    <div>
+      {% for item in menu_items %}
+      <div class="menu-item">
+        <h2>{{ item.name }}</h2>
+        <img src="{{ item.photo }}" alt="{{ item.alt }}" />
+        <p>{{ item.bio }}</p>
+        <p><strong>{{ item.price }}</strong></p>
+      </div>
+      {% endfor %}
+    </div>
   </body>
 </html>

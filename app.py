@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import json
 
 app = Flask(__name__, 
             template_folder='my_bakery/templates', 
@@ -11,7 +12,9 @@ def home():
 
 @app.route('/menu')
 def menu():
-    return render_template('menu.html')
+    with open('bakery.json') as f: 
+        items = json.load(f)
+    return render_template('menu.html', menu_items=items)
 
 @app.route('/about')
 def about():
